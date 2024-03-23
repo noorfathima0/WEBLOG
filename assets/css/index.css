@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../sources/pexels.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+/*            background-color: #C0DDF5;*/
+    padding: 20px;
+    flex: left;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.container {
+    text-align: center;
+    padding: 280px 20px;
+}
+
+h1 {
+    color: black;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #90D3B9;
+    color: #333333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #B3E6C3;
+}
+

@@ -1,0 +1,119 @@
+/* register.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #deddd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    overflow: hidden;
+}
+
+form {
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    background-color: transparent; /* Semi-transparent background */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+form:hover {
+    background-color: rgba(255, 255, 255, 1); /* Solid white background on hover */
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Input Fields */
+div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Error Messages */
+span {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #a3a988;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #6c6a48;
+}
+
+/* Link */
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #a3a988;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Image */
+.image-container {
+    flex: 1;
+    background-image: url("../sources/reg.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    height: 75vh;
+    max-width: 50%;
+    padding-bottom: 100px;
+}
